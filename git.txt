@@ -1,0 +1,53 @@
+﻿Ramteen Taheri 2794329
+
+
+
+Git Questions
+
+1. What is git and what makes it different to other versioning systems such as subversion? 
+
+Git can be looked at as a versioning software. 
+it allows a team of people to work together all using the same files. It also helps the team cope with confusion that tends to happen when more than one person edits the same file. 
+It is different to subversion and other similar types of software in the manner in which it stores and interprets information.
+
+
+The core difference is that GIT is distributed, while other version control systems such as subversion are not. 
+Like subversion, git has a centralized repository or server. But git is more intended to be used in distributed mode which means every developer will have their own cloned repository 
+on their own machine. Git also stores metadata, while other software such as subversion only store just files.
+
+
+
+2. What is a branch? when is the right time to create a branch?
+
+if you are in the middle of a document, and you need to make changes to a previous version, 
+while not losing any of your recent work git makes this easy by the purpose of branching. You can always go back and edit your previous versions whilst keeping your 
+latest work on the more current versions. Say your boss calls up and wants some basic features from previously submitted documents changed, you can go back and do that without 
+altering any of your more recent work.
+
+
+
+3. what is the command to create a git repository and add all created files?
+
+
+in terminal, go into the working directory of your project and type “git init”.
+
+“git add .” adds all the files.
+
+
+
+4. sometimes you do not want to include all files in the repository. how can you avoid this?
+
+the git add command will not add ignored files by default. 
+if you ignore the files you don’t want added before adding your file list the ignored files won’t be added.
+“git add -f” will also force ignored files to be added, 
+if you choose that to be an option.
+
+
+
+5. once you have made changes to files, what is the command to save these into the repository? 
+when is it recommended that you do this?
+
+“git commit” is the command to save files in the repository. 
+It is recommended you do this when you have reached a milestone and/or wish others to view your work and changes.
+
+
